@@ -7,7 +7,7 @@ html, body{
 }
 
 #header-logo{
-	width:289px; height:100%; 
+	width:302px; height:100%; 
 	float:left;
 	background:url('../media/logo/logo-header.png');
 }
@@ -15,8 +15,14 @@ html, body{
 #header-rest{
 	width:auto; height:89px;
 	
+	background: -webkit-linear-gradient(to right, #0085DD, #006FDF); 
+	background: -webkit-linear-gradient(to bottom, #007FD4, #0085DD);
 
-	background: linear-gradient(to right, #0081DD, #0085e2); 
+	background: -o-linear-gradient(to right, #0085DD, #006FDF); 
+	background: -o-linear-gradient(to bottom, #007FD4, #0085DD);
+
+	background: linear-gradient(to right, #0085DD, #006FDF); 
+	background: linear-gradient(to bottom, #007FD4, #0085DD);
 }
 0cfff
 00b7ff
